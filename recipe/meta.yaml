@@ -57,7 +57,6 @@ outputs:
   - name: pyposeidon
     build:
       noarch: python
-      script: echo noop
     requirements:
       host:
         - python >=3.8,<3.9
