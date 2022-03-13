@@ -46,7 +46,7 @@ outputs:
         - scipy
         - netcdf4
         - dask
-        - shapely I hope t=1.7.1
+        - shapely =1.7.1
         - pydap >=3.3.0
 
     test:
