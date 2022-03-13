@@ -16,7 +16,6 @@ build:
 
 outputs:
   - name: pyposeidon-base
-    script: build_base.sh
     build:
       noarch: python
       script: "{{ PYTHON }} -m pip install . --no-deps -vv --no-build-isolation"
